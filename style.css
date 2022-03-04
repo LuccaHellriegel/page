@@ -47,6 +47,6 @@ main {
 
 @media (max-width: 600px) {
 	.picture {
-		max-width: 170px;
+		max-width: 180px;
 	}
 }
