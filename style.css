@@ -1,15 +1,8 @@
 /* Inspiration: https://github.com/jgthms/web-design-in-4-minutes/blob/master/style.css */
 
-header,
-main {
-	margin: 0 auto;
-	max-width: 50em;
-}
-
 body {
 	font-family: "Helvetica", "Arial", sans-serif;
 	line-height: 1.5;
-	padding: 4em 1em;
 	color: #555;
 	background: white;
 	color: #566b78;
@@ -32,21 +25,126 @@ strong {
 	color: #333;
 }
 
-a {
-	color: #e81c4f;
-}
-
 main {
-	padding: 2em 1em;
+	margin: 0 auto;
+	max-width: 50em;
+	padding: 1em 1em;
+	font-size: large;
 }
 
-.picture {
+.delimiter {
+	border-top: aliceblue 4px solid;
+}
+
+.greeting {
+	padding: 2px 8px;
+	margin-block-start: 0.5em;
+	margin-block-end: 0.25em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+.nav {
+	font-size: 1.25em;
+	font-weight: bold;
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+.links {
+	text-align: left;
+
+	padding: 2px 8px;
+}
+
+.links a {
+	text-decoration: none;
+}
+
+.socials {
+	padding: 2px 8px;
+}
+
+.socials {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+}
+
+.social {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	align-content: center;
+	padding: 2px;
+}
+
+.box {
+	background-color: aliceblue;
+	border-radius: 6%;
+	padding: 8px;
+}
+
+.stack {
+	flex-direction: row;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.stack ul {
+	margin: unset;
+	padding: 14px 0px 0px 20px;
+}
+
+.stack figure {
+	margin: unset;
+	text-align: right;
+}
+
+.stack figcaption {
+	font-size: small;
+}
+
+.stack img {
 	max-width: 300px;
 	border-radius: 6%;
 }
 
 @media (max-width: 600px) {
-	.picture {
+	.stack img {
 		max-width: 180px;
 	}
+}
+
+@media (max-width: 320px) {
+	.nav {
+		font-size: 1.03em;
+	}
+	.stack {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.stack img {
+		margin-top: 14px;
+	}
+
+	.image {
+		width: 100%;
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+.experience a {
+	color: #e81c4f;
+}
+
+.footer {
+	text-align: center;
+	font-size: small;
 }
