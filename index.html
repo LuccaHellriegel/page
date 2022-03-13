@@ -8,20 +8,22 @@
 		<link rel="stylesheet" type="text/css" href="./style.css" />
 	</head>
 	<body>
-		<nav class="nav">
-			<div class="links"><a href="./projects.html">Resume</a></div>
-			<div class="socials">
-				<a href="https://github.com/LuccaHellriegel" target="_blank" rel="noopener noreferrer">
-					<div class="social">
-						<img src="./GitHub-Mark-120px-plus.png" style="height: 1.25em" />
-					</div>
-				</a>
+		<nav class="nav__container">
+			<div class="nav">
+				<div class="links"><a href="./projects.html">Resume</a></div>
+				<div class="socials">
+					<a href="https://github.com/LuccaHellriegel" target="_blank" rel="noopener noreferrer">
+						<div class="social">
+							<img src="./GitHub-Mark-120px-plus.png" style="height: 1.25em" />
+						</div>
+					</a>
 
-				<a href="https://www.linkedin.com/in/lucca-hellriegel-20ba2020a/" target="_blank" rel="noopener noreferrer">
-					<div class="social">
-						<img src="./linkedin.png" style="height: 1.25em" />
-					</div>
-				</a>
+					<!-- <a href="https://www.linkedin.com/in/lucca-hellriegel-20ba2020a/" target="_blank" rel="noopener noreferrer">
+						<div class="social">
+							<img src="./linkedin.png" style="height: 1.25em" />
+						</div>
+					</a> -->
+				</div>
 			</div>
 		</nav>
 
@@ -32,7 +34,7 @@
 						<b>
 							Hi, I am Lucca!
 							<br />
-							<em>A Full Stack Developer from Germany.</em></b
+							<em class="greeting__fs">A Full Stack Developer from Germany.</em></b
 						>
 					</div>
 					<div class="image">
@@ -44,12 +46,12 @@
 				</h1>
 
 				<div class="experience">
-					<h2 style="padding-bottom: 4px; text-decoration: underline">In the last 6 years I ...</h2>
+					<h2 style="text-decoration: underline">In the last 6 years I ...</h2>
 
 					<div>
 						<div class="info">
 							...built <b>Full Stack Web Apps</b> for one of the biggest car manufacturers in Germany.<br />
-							<em>(TS/React, Java/Spring)</em>
+							<em class="info__tech">(TS/React, Java/Spring)</em>
 						</div>
 
 						<div class="info">
@@ -57,18 +59,18 @@
 							<a href="https://github.com/LuccaHellriegel/ClayMemory" target="_blank" rel="noopener noreferrer"
 								>novel approaches for Spaced Repetition Software.</a
 							><br />
-							<em>(HCI, UX)</em>
+							<em class="info__tech">(HCI, UX)</em>
 						</div>
 
 						<div class="info">
 							...worked on <b>CI/CD</b> for one of the most successful german luxury fashion businesses.
 							<br />
-							<em>(Gitlab CI/Terraform/AWS)</em>
+							<em class="info__tech">(Gitlab CI/Terraform/AWS)</em>
 						</div>
 
 						<div class="info">
 							...wrote <b>DevOps</b> Software.<br />
-							<em>(Clojure/Pallet )</em>
+							<em class="info__tech">(Clojure/Pallet )</em>
 						</div>
 					</div>
 				</div>
@@ -76,15 +78,22 @@
 				<div>
 					<h2 style="text-decoration: underline">I am passionate about ...</h2>
 					<div class="info">
-						... <b>software as a craft.</b> I am studying the best bits of multiple design methodologies
-						<em>(from machine-focused to human-focused to business-focused)</em> to inform my approach to robust,
-						understandable and timely software.
+						... <b>software as a craft.</b>
+					</br>
+						<span class="info__extra">
+							I am studying the best bits of multiple design methodologies
+							<em>(from machine-focused to human-focused to business-focused)</em> to inform my approach to robust,
+							understandable and timely software.
+						</span>
 					</div>
 
 					<div class="info">
-						... <b>learning and the mind.</b> Cognitive augmentation tech is still in its infancy but its necessity will
-						just increase in the future. The untapped psychological potential in the world is a tragedy. To learn is to
-						live.
+						... <b>learning and the mind.</b>
+					</br>
+						<span class="info__extra">
+							Cognitive augmentation tech is still in its infancy but its necessity will just increase in the future.
+							The untapped psychological potential in the world is a tragedy. To learn is to live.
+						</span>
 					</div>
 				</div>
 			</div>
