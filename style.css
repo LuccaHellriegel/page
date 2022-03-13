@@ -105,6 +105,10 @@ main {
 	align-content: center;
 }
 
+.greeting__text {
+	/* margin-top: -50%; */
+}
+
 .greeting__fs {
 	color: var(--blue-300);
 }
@@ -220,6 +224,8 @@ main {
 	}
 
 	.nav {
-		min-width: calc(100vw - 2rem);
+		min-width: 100vw;
+		border-left: unset;
+		border-right: unset;
 	}
 }
