@@ -103,10 +103,22 @@ main {
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
+	font-size: 2.5rem;
+	line-height: 1;
+}
+
+.greeting__hi {
+	padding-bottom: 18px;
 }
 
 .greeting__fs {
 	color: var(--blue-300);
+	font-size: 2rem;
+}
+
+.greeting__ger {
+	color: var(--blue-300);
+	font-size: 1.7rem;
 }
 
 .nav__container {
@@ -203,7 +215,8 @@ main {
 
 .image img {
 	max-width: 300px;
-	border-radius: 20%;
+	border-radius: 20% 20% 0% 20%;
+	padding-bottom: 4px;
 }
 
 .footer {
