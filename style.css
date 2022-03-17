@@ -233,6 +233,7 @@ main {
 
 	.greeting {
 		flex-direction: column;
+		align-items: flex-start;
 	}
 
 	.image img {
