@@ -244,4 +244,13 @@ main {
 		border-left: unset;
 		border-right: unset;
 	}
+
+	.greeting__fs {
+		font-size: 1.5rem;
+	}
+
+	.greeting__ger {
+		font-size: 1.2rem;
+		padding-bottom: 10px;
+	}
 }
