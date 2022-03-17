@@ -45,7 +45,7 @@ h6 {
 }
 
 :root {
-	--blue-100: hsl(225, 40%, 10%);
+	--blue-100: hsl(225, 40%, 18%);
 	--blue-200: hsl(225, 40%, 25%);
 	--blue-300: hsl(225, 40%, 46%);
 	--blue-400: hsl(225, 40%, 84%);
@@ -105,10 +105,6 @@ main {
 	align-content: center;
 }
 
-.greeting__text {
-	/* margin-top: -50%; */
-}
-
 .greeting__fs {
 	color: var(--blue-300);
 }
@@ -158,6 +154,13 @@ main {
 	padding: 4px;
 }
 
+.mouth {
+	border-bottom: 8px solid var(--blue-400);
+	height: 100%;
+	padding: 20px;
+	width: 100px;
+}
+
 .links {
 	text-align: left;
 	padding: 2px 8px;
@@ -169,7 +172,7 @@ main {
 }
 
 .socials {
-	padding: 2px 8px;
+	padding: 4px 8px;
 }
 
 .socials {
