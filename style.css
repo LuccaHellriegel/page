@@ -255,3 +255,11 @@ main {
 		padding-bottom: 10px;
 	}
 }
+
+.line {
+	/* border-bottom: 2px solid var(--blue-500); */
+}
+
+.dots {
+	border-bottom: 10px dotted var(--blue-500);
+}
